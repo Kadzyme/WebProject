@@ -1,12 +1,35 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  width: 1440px;
+}
+
 header {
+  position: relative;
   height: 150px;
-  background-image: url("/images/Rectangle\ 104.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 160px;
+  background-image: url("/images/HeaderImg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  border-bottom: 3px solid #fff;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-color: rgba(43, 74, 97, 0.87);
+  z-index: -1;
 }
 
 .btn-container {
@@ -17,12 +40,15 @@ header {
 
 .header-btn {
   text-decoration: none;
+}
+
+.text {
   color: #ffffff;
   font-family: "Inter";
-  font-style: normal;
-  font-weight: 300;
   font-size: 20px;
   line-height: 24px;
+  font-weight: 300;
+  margin: 0px;
 }
 
 .btn {
@@ -53,4 +79,31 @@ header {
 .switcher-btn {
   font-size: 16px;
   line-height: 20px;
+}
+
+.card1 {
+  height: 740px;
+  background-image: url("/images/Avatar1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 204px 180px;
+}
+
+.card1-img {
+  margin-left: 53px;
+}
+
+.join-btn {
+  border-radius: 45px 0px;
+  border: 3px solid #26c7ea;
+  background: #0b0e66;
+  width: 260px;
+  height: 80px;
+  flex-shrink: 0;
+  color: #26c7ea;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter";
+  margin-top: 42px;
 }
