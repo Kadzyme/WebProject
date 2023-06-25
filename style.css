@@ -72,6 +72,7 @@ header::after {
   font-size: 20px;
   line-height: 25px;
   color: #26c6ea;
+  cursor: pointer;
 }
 
 .header-container-right {
@@ -116,6 +117,7 @@ header::after {
   font-size: 24px;
   font-family: "Inter";
   margin-top: 42px;
+  cursor: pointer;
 }
 
 .text-big {
@@ -159,6 +161,7 @@ header::after {
   border-radius: 45px 0px;
   border: 3px solid #26c7ea;
   background: #0b0e66;
+  cursor: pointer;
 }
 
 .card3 {
