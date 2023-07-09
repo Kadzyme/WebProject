@@ -92,7 +92,7 @@ main {
   border: 2px solid #26c7ea;
   border-radius: 35px 0px;
   padding: 1px 25px;
-  font-family: HeadlandOne;
+  font-family: "Headland One";
   font-style: normal;
   font-weight: 400;
   text-align: justify;
@@ -131,6 +131,9 @@ main {
 .card1-container {
   display: flex;
   justify-content: space-between;
+}
+
+.card1-text-container {
   margin-bottom: 2px;
 }
 
@@ -159,7 +162,7 @@ main {
   text-align: center;
   font-size: 24px;
   font-family: "Headland One";
-  margin-top: 42px;
+  margin-top: 40px;
   cursor: pointer;
 }
 
