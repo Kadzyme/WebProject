@@ -61,15 +61,6 @@ main {
   width: 100%;
 }
 
-.avatar {
-  background-image: url(/images/Avatar.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 186px;
-  height: 72px;
-}
-
 .btn-container {
   display: flex;
   justify-content: center;
@@ -140,16 +131,21 @@ main {
 .card1-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2px;
 }
 
 .card1-media {
-  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 25px;
-  justify-content: start;
+  justify-content: end;
   align-items: end;
   list-style-type: none;
+  margin: 0px;
+}
+
+.card1-img {
+  margin-left: 54px;
 }
 
 .join-btn {
@@ -165,6 +161,12 @@ main {
   font-family: "Headland One";
   margin-top: 42px;
   cursor: pointer;
+}
+
+.join-btn:hover,
+.card2-btn:hover,
+.btn:hover {
+  background-color: #01317a;
 }
 
 .text-big {
@@ -290,21 +292,28 @@ main {
   list-style-type: none;
   height: 100%;
   justify-content: end;
-  column-gap: 16px;
+  gap: 37px;
   display: flex;
   flex-direction: column;
+}
+
+.footer-emails {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .footer-right-line {
   display: flex;
   align-items: center;
-  gap: 20px;
+  column-gap: 20px;
 }
 
 .footer-text {
   color: #fff;
   font-size: 20px;
   font-family: Inter;
+  margin: 0px;
 }
 
 .footer-small-text {
