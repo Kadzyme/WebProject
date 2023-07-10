@@ -92,7 +92,7 @@ main {
   border: 2px solid #26c7ea;
   border-radius: 35px 0px;
   padding: 1px 25px;
-  font-family: "Headland One";
+  font-family: "Headland One", sans-serif;
   font-style: normal;
   font-weight: 400;
   text-align: justify;
@@ -161,7 +161,7 @@ main {
   color: #26c7ea;
   text-align: center;
   font-size: 24px;
-  font-family: "Headland One";
+  font-family: "Headland One", sans-serif;
   margin-top: 40px;
   cursor: pointer;
 }
@@ -206,7 +206,7 @@ main {
   color: #26c7ea;
   text-align: center;
   font-size: 24px;
-  font-family: "Headland One";
+  font-family: "Headland One", sans-serif;
   width: 260px;
   height: 80px;
   flex-shrink: 0;
@@ -272,7 +272,7 @@ main {
   color: #141414;
   text-align: center;
   font-size: 24px;
-  font-family: "Headland One";
+  font-family: "Headland One", sans-serif;
   line-height: 24px;
 }
 
