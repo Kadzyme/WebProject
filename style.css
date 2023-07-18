@@ -3,6 +3,10 @@ html {
   justify-content: center;
 }
 
+ul {
+  padding: 0px;
+}
+
 body {
   width: 1440px;
   display: flex;
@@ -11,50 +15,48 @@ body {
 }
 
 header {
-  position: relative;
   height: 150px;
   width: 100%;
   background-image: url("images/HeaderImg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 1;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid #fff;
+}
+
+nav {
+  background-color: rgba(43, 74, 97, 0.87);
+  width: 100%;
 }
 
 footer {
-  position: relative;
   height: 223px;
   width: 100%;
   background-image: url("images/footer.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 1;
+}
+
+.footer-content {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 74, 97, 0.87);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 80px;
 }
 
-footer::after,
-header::after {
-  content: "";
-  position: absolute;
-  width: inherit;
-  height: inherit;
-  background-color: rgba(43, 74, 97, 0.87);
-  z-index: -1;
-}
-
-nav {
-  position: absolute;
-  width: 100%;
-  height: 150px;
+.nav-content {
+  margin-left: 204px;
+  width: 1200px;
+  height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 160px;
-  border-bottom: 3px solid #fff;
 }
 
 main {
@@ -63,8 +65,9 @@ main {
 
 .btn-container {
   display: flex;
-  justify-content: center;
-  gap: 38px;
+  width: 325px;
+  justify-content: space-between;
+  align-items: center;
   list-style-type: none;
 }
 
@@ -114,6 +117,7 @@ main {
 }
 
 .switcher-btn {
+  font-family: "HammerSmith One";
   font-size: 16px;
   line-height: 20px;
 }
@@ -125,7 +129,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 204px 180px;
+  padding: 180px 204px;
 }
 
 .card1-container {
@@ -283,6 +287,15 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.between-card::after {
+  content: "";
+  display: block;
+  background-image: url(images/Bird.png);
+  width: 400px;
+  height: 120px;
+  background-size: cover;
 }
 
 .footer-line {
