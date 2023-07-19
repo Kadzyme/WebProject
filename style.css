@@ -241,21 +241,15 @@ main {
 }
 
 .card3-grid {
-  display: flex;
-  flex-direction: column;
-  column-gap: 36px;
-}
-
-.card3-row {
+  width: 1300px;
   display: flex;
   list-style: none;
-  flex-direction: row;
   gap: 36px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.card3-row-item {
+.card3-grid-item {
   width: 320px;
   height: 240px;
   flex-shrink: 0;
@@ -267,12 +261,12 @@ main {
   padding: 36px;
 }
 
-.card3-row-item-img {
+.card3-grid-item-img {
   width: 152px;
   height: 40px;
 }
 
-.card3-row-item-text {
+.card3-grid-item-text {
   color: #141414;
   text-align: center;
   font-size: 24px;
@@ -295,7 +289,7 @@ main {
   background-image: url(images/Bird.png);
   width: 400px;
   height: 120px;
-  background-size: cover;
+  background-size: contain;
 }
 
 .footer-line {
