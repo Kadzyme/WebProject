@@ -98,11 +98,12 @@ main {
   font-family: "Headland One", sans-serif;
   font-style: normal;
   font-weight: 400;
-  text-align: justify;
   font-size: 20px;
   line-height: 25px;
   color: #26c6ea;
   cursor: pointer;
+  width: 141px;
+  height: 41.694px;
 }
 
 .header-container-right {
@@ -331,6 +332,6 @@ main {
 }
 
 .footer-small-text-container {
-  text-align: center;
+  margin-left: 131px;
   margin-bottom: 25px;
 }
